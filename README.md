@@ -38,7 +38,8 @@ No iPhone em pé:
 - **Desktop** fixo como primeira miniatura e no topo da gaveta Apps.
 - **Manter a tela acesa** em Settings.
 
-Arquivos do Sill alterados ou novos nesta versão: `iOSClient/PictureZoom.swift`, `QuickShortcuts.swift`, `HEVCDisplayView.swift`,
+O código completo está no fork [RaffaelFerro/sill](https://github.com/RaffaelFerro/sill/tree/picture-zoom),
+branch `picture-zoom`. Arquivos do Sill alterados ou novos nesta versão: `iOSClient/PictureZoom.swift`, `QuickShortcuts.swift`, `HEVCDisplayView.swift`,
 `InputOverlay.swift`, `PhonePortraitLayout.swift`, `PortraitStreamScreen.swift`, `StreamClient.swift`,
 `StreamScreen.swift`, `TrackpadView.swift`, `HostSettingsPanel.swift` e `TourPolicy.swift`.
 
