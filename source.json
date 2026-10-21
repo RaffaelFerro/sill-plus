@@ -1,0 +1,46 @@
+{
+  "name": "Sill Plus",
+  "identifier": "com.raffaelferro.sillplus.source",
+  "subtitle": "Sill com zoom, tela cheia e atalhos no iPhone",
+  "description": "Uma versão modificada do Sill (de Noah Saffer, Apache-2.0) para iPhone: zoom na imagem, tela cheia vertical, gaveta de atalhos, Aa automático e janelas agrupadas por app. Precisa do app Sill gratuito no Mac (getsill.app). Não é o app oficial.",
+  "iconURL": "https://raw.githubusercontent.com/RaffaelFerro/sill-plus/main/icon.png",
+  "website": "https://github.com/RaffaelFerro/sill-plus",
+  "tintColor": "#5B7CFA",
+  "apps": [
+    {
+      "name": "Sill Plus",
+      "bundleIdentifier": "com.raffaelferro.sillplus",
+      "developerName": "Raffael Ferro (baseado no Sill de Noah Saffer)",
+      "subtitle": "Seu Mac no iPhone, com zoom e tela cheia",
+      "localizedDescription": "Mostra janelas do seu Mac no iPhone e no iPad e deixa usar com toque, trackpad e teclado. Versão modificada do Sill (github.com/Saffsanity/sill, Apache-2.0), não oficial e sem ligação com o autor original.\n\nO que esta versão traz a mais:\n• Zoom na imagem (toque no Aa, ou segure e suba o dedo; duplo toque com dois dedos), com o cursor sempre no centro\n• Tela cheia vertical: a janela do Mac se encaixa no espaço livre, inclusive com o teclado aberto; modo toque ou trackpad\n• Aa automático: a janela encaixa sem faixa preta\n• Gaveta de atalhos: teclas, abrir app, texto pronto e ações do Sill, por app\n• Janelas do mesmo app agrupadas numa pasta; Desktop fixo na fileira e na gaveta Apps\n• Manter a tela acesa\n\nPrecisa do app Sill gratuito no Mac: getsill.app",
+      "iconURL": "https://raw.githubusercontent.com/RaffaelFerro/sill-plus/main/icon.png",
+      "tintColor": "#5B7CFA",
+      "category": "utilities",
+      "screenshotURLs": [],
+      "version": "0.5.1",
+      "versionDate": "2026-10-21",
+      "versionDescription": "Primeira versão do Sill Plus, baseada no Sill 0.5.1.",
+      "downloadURL": "https://github.com/RaffaelFerro/sill-plus/releases/download/v0.5.1-plus.1/SillPlus.ipa",
+      "size": 2530326,
+      "versions": [
+        {
+          "version": "0.5.1",
+          "buildVersion": "1001",
+          "date": "2026-10-21",
+          "localizedDescription": "Primeira versão do Sill Plus, baseada no Sill 0.5.1.",
+          "downloadURL": "https://github.com/RaffaelFerro/sill-plus/releases/download/v0.5.1-plus.1/SillPlus.ipa",
+          "size": 2530326,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Finds your Mac on the local network.",
+          "NSCameraUsageDescription": "Sill scans the code on your Mac to pair with it."
+        }
+      }
+    }
+  ],
+  "news": []
+}
